@@ -1,0 +1,26 @@
+[project]
+name = "google-reviews-pipeline"
+version = "0.1.0"
+description = "pacote de libs para projeto"
+authors = [
+    {name = "João Marcos Marrach Borgato",email = "joao_borgato@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.2,<3.0.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "streamlit (>=1.50.0,<2.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "wordcloud (>=1.9.4,<2.0.0)",
+    "nltk (>=3.9.1,<4.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "serpapi (>=0.1.5,<0.2.0)",
+    "xlsxwriter (>=3.2.9,<4.0.0)",
+    "faker (>=37.8.0,<38.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
