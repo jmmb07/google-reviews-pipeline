@@ -52,8 +52,12 @@ in the chosen dashboard script.
   <summary>Screenshots</summary>
 
   ![Overview](screenshots/overview.png)  
+  <br>
   ![Text Analysis](screenshots/text_analysis_1.png)  
+  <br>
+  <p>Temporal Analysys</p>
   ![Temporal Analysis](screenshots/temporal_analysis.png)  
+  <br>
   ![Quality and Export](screenshots/quality_and_export.png)  
 
 </details>
