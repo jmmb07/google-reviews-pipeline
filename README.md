@@ -14,7 +14,7 @@ This project demonstrates a complete ETL pipeline and an interactive dashboard f
   - Expected dataset columns: `review_id, date, user, rating, comment`.  
   - Transform data: clean text, normalize dates and ratings, remove stopwords.  
   - Load into a SQLite database for persistence.  
-  
+
 - **Dashboard (Streamlit)**  
   - **Overview**: total reviews, average rating, rating distribution, trends over time.  
   - **Sentiment Analysis**: positive/neutral/negative (rating + words) breakdown with examples.  
@@ -55,30 +55,30 @@ in the chosen dashboard script.
 
 ## Screenshots
 
-<details>
-  <summary>Click to expand</summary>
+### Overview
+![Overview](screenshots/overview.png)
 
-  <p><strong>Overview</strong></p>
-  ![Overview](screenshots/overview.png)  
-  <br>
+---
 
-  <p><strong>Text Analysis 1</strong></p>
-  ![Text Analysis 1](screenshots/text_analysis_1.png)  
-  <br>
+### Text Analysis — 1
+![Text Analysis 1](screenshots/text_analysis_1.png)
 
-  <p><strong>Text Analysis 2</strong></p>
-  ![Text Analysis 2](screenshots/text_analysis_2.png)  
-  <br>
+---
 
-  <p><strong>Text Analysis 3</strong></p>
-  ![Text Analysis 3](screenshots/text_analysis_3.png)  
-  <br>
+### Text Analysis — 2
+![Text Analysis 2](screenshots/text_analysis_2.png)
 
-  <p><strong>Temporal Analysis</strong></p>
-  ![Temporal Analysis](screenshots/temporal_analysis.png)  
-  <br>
+---
 
-  <p><strong>Quality and Export</strong></p>
-  ![Quality and Export](screenshots/quality_and_export.png)  
+### Text Analysis — 3
+![Text Analysis 3](screenshots/text_analysis_3.png)
 
-</details>
+---
+
+### Temporal Analysis
+![Temporal Analysis](screenshots/temporal_analysis.png)
+
+---
+
+### Quality and Export
+![Quality and Export](screenshots/quality_and_export.png)
