@@ -2,6 +2,12 @@
 
 This project demonstrates a complete ETL pipeline and an interactive dashboard for analyzing Google Maps reviews.
 
+## Table of Contents
+- [Features](#features)
+- [How to Run](#how-to-run)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+
 ## Features
 - **ETL Pipeline**  
   - Extract reviews from Google Maps (via SerpAPI) – or use a simulated dataset.  
@@ -47,17 +53,32 @@ in the chosen dashboard script.
 - Streamlit, Pandas, Altair, NLTK, Wordcloud  
 - SQLite  
 
+## Screenshots
 
 <details>
-  <summary>Screenshots</summary>
+  <summary>Click to expand</summary>
 
+  <p><strong>Overview</strong></p>
   ![Overview](screenshots/overview.png)  
   <br>
-  ![Text Analysis](screenshots/text_analysis_1.png)  
+
+  <p><strong>Text Analysis 1</strong></p>
+  ![Text Analysis 1](screenshots/text_analysis_1.png)  
   <br>
-  <p>Temporal Analysys</p>
+
+  <p><strong>Text Analysis 2</strong></p>
+  ![Text Analysis 2](screenshots/text_analysis_2.png)  
+  <br>
+
+  <p><strong>Text Analysis 3</strong></p>
+  ![Text Analysis 3](screenshots/text_analysis_3.png)  
+  <br>
+
+  <p><strong>Temporal Analysis</strong></p>
   ![Temporal Analysis](screenshots/temporal_analysis.png)  
   <br>
+
+  <p><strong>Quality and Export</strong></p>
   ![Quality and Export](screenshots/quality_and_export.png)  
 
 </details>
